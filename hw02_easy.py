@@ -19,6 +19,8 @@ string_length = 0
 ##for itm in fruits_list:
 # для нумерации можно использовать i +=1; но решил использовать новый метод
 
+
+string_length = 0
 for key, itm in list(enumerate(fruits_list)):
     if (len(itm) > string_length):
         string_length = len(itm)
